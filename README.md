@@ -1,5 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# GestorOS Vue3 + Electron + MySQL
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Gestor OS é um esboço de um projeto de um sistema responsável por gerenciar ordens de serviço.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+### Funcionalidades
+
+- Cadastrar ordens e clientes
+- Aba de produtos para realizar serviço aba de produtos com filtro por nome
+- Aba de clientes com filtro por nome
+- Aba de ordens e seus detalhes
+
+### Tecnologias utilizadas
+
+- Vue 3 + Vite
+- PrimeVue
+- Electron
+- MySQL
+
+### Inicia a aplicação Vite + Vue3
+```
+npm run dev
+```
+### Inicializa o electron
+```
+npm start
+```
